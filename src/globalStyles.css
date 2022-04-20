@@ -10,6 +10,27 @@ body {
   box-sizing: border-box;
 }
 
+:root {
+  --monochrome-tone-1: hsl(270, 2%, 5%);
+  --monochrome-tone-2: hsl(270, 2%, 10%);
+  --monochrome-tone-3: hsl(270, 2%, 15%);
+  --monochrome-tone-4: hsl(270, 2%, 25%);
+  --monochrome-tone-5: hsl(270, 2%, 30%);
+  --monochrome-tone-6: hsl(270, 2%, 35%);
+  --monochrome-tone-7: hsl(270, 2%, 40%);
+  --monochrome-tone-8: hsl(270, 2%, 45%);
+  --monochrome-tone-9: hsl(270, 2%, 50%);
+  --monochrome-tone-10: hsl(270, 2%, 55%);
+  --monochrome-tone-11: hsl(270, 2%, 60%);
+  --monochrome-tone-12: hsl(270, 2%, 65%);
+  --monochrome-tone-13: hsl(270, 2%, 70%);
+  --monochrome-tone-14: hsl(270, 2%, 75%);
+  --monochrome-tone-15: hsl(270, 2%, 80%);
+  --monochrome-tone-16: hsl(270, 2%, 85%);
+  --monochrome-tone-17: hsl(270, 2%, 90%);
+  --monochrome-tone-18: hsl(270, 2%, 95%);
+}
+
 #root {
   width: 100%;
   height: 100%;
