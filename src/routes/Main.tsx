@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 const Main = () => (
   <>
     <h1>Heya !</h1>
-    <Link to={"/fgsigfds"}>Go to /fgsigfds (404 page test)</Link>
+    <p>This is a test markdown editor</p>
+    <Link to={"/editor"}>Go to the editor</Link>
   </>
 );
 
