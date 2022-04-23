@@ -3,7 +3,8 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "webpack serve --config ./webpack.config.js --mode development --port 3000",
-    "build": "webpack --config ./webpack.config.js --mode production"
+    "build": "webpack --config ./webpack.config.js --mode production",
+    "publish": "npm run build && npx gh-pages -d build -b \"pages\" -m \"auto publish using gh-pages node module\""
   },
   "author": "valflrt",
   "license": "ISC",
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "copy-webpack-plugin": "^10.2.4",
+    "gh-pages": "^3.2.3",
     "github-markdown-css": "^5.1.0",
     "highlight.js": "^11.5.1",
     "react": "^17.0.2",
