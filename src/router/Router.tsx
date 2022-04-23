@@ -1,17 +1,19 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Main from "../routes/Main";
-import Editor from "../routes/Editor";
-import NotFound from "../routes/NotFound";
+const Main = React.lazy(() => import("../routes/Main"));
+const Editor = React.lazy(() => import("../routes/Editor"));
+const NotFound = React.lazy(() => import("../routes/NotFound"));
 
 const Router = () => (
   <>
-    <Routes>
-      <Route path={"/"} element={<Main />} />
-      <Route path={"/editor"} element={<Editor />} />
-      <Route path={"*"} element={<NotFound />} />
-    </Routes>
+    <Suspense fallback={<>Loading ...</>}>
+      <Routes>
+        <Route path={"/"} element={<Main />} />
+        <Route path={"/editor"} element={<Editor />} />
+        <Route path={"*"} element={<NotFound />} />
+      </Routes>
+    </Suspense>
   </>
 );
 
