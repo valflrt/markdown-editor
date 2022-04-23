@@ -1,0 +1,71 @@
+.layout-YsVeQDIH1MiR {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* to understand variable names, convert values to hsl "color mode" */
+
+  --primary-tone-100-60: #9933ff;
+  --primary-tone-95-65: #a651fb;
+  --primary-tone-90-70: #b36ef7;
+  --primary-tone-85-75: #bf89f5;
+  --primary-tone-80-80: #cca3f5;
+  --primary-tone-75-85: #d9bcf5;
+
+  --monochrome-tone-0: #000000;
+  --monochrome-tone-5: #0d0c0d;
+  --monochrome-tone-10: #1a191a;
+  --monochrome-tone-15: #262527;
+  --monochrome-tone-20: #333135;
+  --monochrome-tone-25: #403e41;
+  --monochrome-tone-30: #4d4b4e;
+  --monochrome-tone-35: #59575b;
+  --monochrome-tone-40: #666468;
+  --monochrome-tone-45: #737075;
+  --monochrome-tone-50: #807d82;
+  --monochrome-tone-55: #8c8a8f;
+  --monochrome-tone-60: #99979b;
+  --monochrome-tone-65: #a6a4a8;
+  --monochrome-tone-70: #b3b1b4;
+  --monochrome-tone-75: #bfbec1;
+  --monochrome-tone-80: #cccbcd;
+  --monochrome-tone-85: #d9d8da;
+  --monochrome-tone-90: #e6e5e6;
+  --monochrome-tone-95: #f2f2f3;
+  --monochrome-tone-100: #ffffff;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden auto;
+
+  color: var(--monochrome-tone-100);
+  background-color: var(--monochrome-tone-10);
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: var(--primary-tone-95-65);
+}
+

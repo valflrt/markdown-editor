@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktypescript_react_template=self.webpackChunktypescript_react_template||[]).push([[505],{505:(e,t,r)=>{r.r(t),r.d(t,{default:()=>l});var a=r(294),c=r(711);const l=()=>a.createElement(a.Fragment,null,a.createElement("p",null,"There's nothing here !"),a.createElement(c.rU,{to:"/"},"Back home"))}}]);
