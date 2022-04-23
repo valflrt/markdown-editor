@@ -4,7 +4,7 @@
 
   padding: 50px 0;
 
-  background-color: var(--monochrome-tone-2);
+  background-color: var(--monochrome-tone-10);
 
   display: flex;
   flex-flow: row nowrap;
@@ -25,12 +25,17 @@ textarea.textZoneTextArea {
   width: 100%;
   height: 100%;
 
+  padding: 0;
+  margin: 0;
+
   color: inherit;
   background-color: transparent;
   border: none;
   outline: none;
 
   resize: none;
+
+  overflow-y: auto;
 }
 
 .mdZoneWrapper {
@@ -44,8 +49,10 @@ textarea.textZoneTextArea {
 
   padding: 20px;
 
-  color: var(--monochrome-tone-1);
-  background-color: var(--monochrome-tone-17);
+  color: var(--monochrome-tone-5);
+  background-color: var(--monochrome-tone-100);
 
   border-radius: 8px;
+
+  overflow-y: auto;
 }

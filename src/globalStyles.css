@@ -11,24 +11,36 @@ body {
 }
 
 :root {
-  --monochrome-tone-1: hsl(270, 2%, 5%);
-  --monochrome-tone-2: hsl(270, 2%, 10%);
-  --monochrome-tone-3: hsl(270, 2%, 15%);
-  --monochrome-tone-4: hsl(270, 2%, 25%);
-  --monochrome-tone-5: hsl(270, 2%, 30%);
-  --monochrome-tone-6: hsl(270, 2%, 35%);
-  --monochrome-tone-7: hsl(270, 2%, 40%);
-  --monochrome-tone-8: hsl(270, 2%, 45%);
-  --monochrome-tone-9: hsl(270, 2%, 50%);
-  --monochrome-tone-10: hsl(270, 2%, 55%);
-  --monochrome-tone-11: hsl(270, 2%, 60%);
-  --monochrome-tone-12: hsl(270, 2%, 65%);
-  --monochrome-tone-13: hsl(270, 2%, 70%);
-  --monochrome-tone-14: hsl(270, 2%, 75%);
-  --monochrome-tone-15: hsl(270, 2%, 80%);
-  --monochrome-tone-16: hsl(270, 2%, 85%);
-  --monochrome-tone-17: hsl(270, 2%, 90%);
-  --monochrome-tone-18: hsl(270, 2%, 95%);
+  /* to understand variable names, convert values to hsl "color mode" */
+
+  --primary-tone-100-60: #9933ff;
+  --primary-tone-95-65: #a651fb;
+  --primary-tone-90-70: #b36ef7;
+  --primary-tone-85-75: #bf89f5;
+  --primary-tone-80-80: #cca3f5;
+  --primary-tone-75-85: #d9bcf5;
+
+  --monochrome-tone-0: #000000;
+  --monochrome-tone-5: #0d0c0d;
+  --monochrome-tone-10: #1a191a;
+  --monochrome-tone-15: #262527;
+  --monochrome-tone-20: #333135;
+  --monochrome-tone-25: #403e41;
+  --monochrome-tone-30: #4d4b4e;
+  --monochrome-tone-35: #59575b;
+  --monochrome-tone-40: #666468;
+  --monochrome-tone-45: #737075;
+  --monochrome-tone-50: #807d82;
+  --monochrome-tone-55: #8c8a8f;
+  --monochrome-tone-60: #99979b;
+  --monochrome-tone-65: #a6a4a8;
+  --monochrome-tone-70: #b3b1b4;
+  --monochrome-tone-75: #bfbec1;
+  --monochrome-tone-80: #cccbcd;
+  --monochrome-tone-85: #d9d8da;
+  --monochrome-tone-90: #e6e5e6;
+  --monochrome-tone-95: #f2f2f3;
+  --monochrome-tone-100: #ffffff;
 }
 
 #root {
@@ -37,12 +49,12 @@ body {
 
   overflow: hidden auto;
 
-  color: #f1f1f1;
-  background-color: #161519;
+  color: var(--monochrome-tone-100);
+  background-color: var(--monochrome-tone-5);
 
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
-  color: #877dba; /* my fav color :) */
+  color: var(--primary-tone-95-65);
 }
