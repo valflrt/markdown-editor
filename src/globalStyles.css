@@ -50,7 +50,7 @@ body {
   overflow: hidden auto;
 
   color: var(--monochrome-tone-100);
-  background-color: var(--monochrome-tone-5);
+  background-color: var(--monochrome-tone-10);
 
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
