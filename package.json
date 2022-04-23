@@ -3,7 +3,7 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "webpack serve --config ./webpack.config.js --mode development --port 3000",
-    "build": "webpack --config ./webpack.config.js --mode production",
+    "build": "rm -rf ./build && webpack --config ./webpack.config.js --mode production",
     "publish": "npm run build && npx gh-pages -d build -b \"pages\" -m \"auto publish using gh-pages node module\""
   },
   "author": "valflrt",
