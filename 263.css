@@ -41,7 +41,7 @@ textarea.textZoneTextArea-sIv5T1vsiBsu {
   outline: none;
   resize: none;
 
-  overflow-y: auto;
+  overflow: auto;
 
   flex-grow: 1;
 }
@@ -55,7 +55,7 @@ textarea.textZoneTextArea-sIv5T1vsiBsu {
   color: var(--monochrome-tone-5);
   background-color: var(--monochrome-tone-100);
 
-  overflow-y: auto;
+  overflow: auto;
 
   flex-grow: 1;
 }
