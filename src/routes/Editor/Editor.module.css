@@ -31,7 +31,7 @@ textarea.textZoneTextArea {
   outline: none;
   resize: none;
 
-  overflow-y: auto;
+  overflow: auto;
 
   flex-grow: 1;
 }
@@ -45,7 +45,7 @@ textarea.textZoneTextArea {
   color: var(--monochrome-tone-5);
   background-color: var(--monochrome-tone-100);
 
-  overflow-y: auto;
+  overflow: auto;
 
   flex-grow: 1;
 }
